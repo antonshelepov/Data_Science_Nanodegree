@@ -13,8 +13,16 @@
 * Since it isn't easy to write your best code while you're still trying to just get it working, allocating time to do this is essential to producing high-quality code. Despite the initial time and effort required, this really pays off by speeding up your development time in the long run.
 * You become a much stronger programmer when you're constantly looking to improve your code. The more you refactor, the easier it will be to structure and write good code the first time.
 ## Writing Clean Code
-Use meaningful names.
+### Meaningful names
 * *Be descriptive and imply type*: For booleans, you can prefix with ```is_``` or ```has_``` to make it clear it is a condition. You can also use parts of speech to imply types, like using verbs for functions and nouns for variables.
 * *Be consistent but clearly differentiate*: ```age_list``` and ```age``` is easier to differentiate than ```ages``` and ```age```.
 * *Avoid abbreviations and single letters*: You can determine when to make these exceptions based on the audience for your code. If you work with other data scientists, certain variables may be common knowledge. While if you work with full stack engineers, it might be necessary to provide more descriptive names in these cases as well. (Exceptions include counters and common math variables.)
 * *Long names aren't the same as descriptive names*: You should be descriptive, but only with relevant information. For example, good function names describe what they do well without including details about implementation or highly specific uses.
+### Nice whitespace
+* Organize your code with consistent indentation: the standard is to use four spaces for each indent. You can make this a default in your text editor.
+* Separate sections with blank lines to keep your code well organized and readable.
+* Try to limit your lines to around 79 characters, which is the guideline given in the PEP 8 style guide. In many good text editors, there is a setting to display a subtle line that indicates where the 79 character limit is.
+### Resources
+[PEP 8 Guidelines for code layout](https://peps.python.org/pep-0008/#code-lay-out)
+### Quiz
+![cleanCode 1](/screenshots/cleanCode_I.png "Clean code")
