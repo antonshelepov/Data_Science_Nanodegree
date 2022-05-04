@@ -10,3 +10,5 @@
 * Questions of interest
 * Results for each
 * Everyone relates better to visuals
+### Who is the audience (quiz)
+![who is the audience](/screenshots/whoIsTheAudience.png "Who is your audience")
