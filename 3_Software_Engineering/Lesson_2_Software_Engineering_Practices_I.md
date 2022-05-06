@@ -74,5 +74,11 @@ Translating all your ideas and thoughts formally on paper can be a little diffic
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * [Stack Overflow Blog](https://github.com/jjrunner/stackoverflow)
 ## Git
+### Scenario 1
+### Scenario 2
+### Scenario 3
 ### Resources
 [A successful git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
+### Model Versioning
+[Version Control ML Model](https://towardsdatascience.com/version-control-ml-model-4adb2db5f87c)
+[How to Version Control Your Production Machine Learning Models](https://www.datarobot.com/blog/how-to-version-control-your-production-machine-learning-models/)
