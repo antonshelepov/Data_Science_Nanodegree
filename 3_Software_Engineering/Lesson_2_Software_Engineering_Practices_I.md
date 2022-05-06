@@ -46,11 +46,11 @@ Documentation is helpful for clarifying complex parts of code, making your code 
 Docstring, or documentation strings, are valuable pieces of documentation that explain the functionality of any function or module in your code. Ideally, each of your functions should always have a docstring.
 Docstrings are surrounded by triple quotes. The first line of the docstring is a brief explanation of the function's purpose.
 **One-line docstring**
-'''def population_density(population, land_area):
+```def population_density(population, land_area):
     """Calculate the population density of an area."""
-    return population / land_area'''
+    return population / land_area```
 **Multi-line docstring
-'''def population_density(population, land_area):
+```def population_density(population, land_area):
     """Calculate the population density of an area.
 
     Args:
@@ -61,7 +61,7 @@ Docstrings are surrounded by triple quotes. The first line of the docstring is a
     population_density: population/land_area. The population density of a 
     particular area.
     """
-    return population / land_area'''
+    return population / land_area```
 ### Resources
 * [PEP 257 - Docstring Conventions](https://peps.python.org/pep-0257/)
 * [NumPy Docstring Guide](https://numpydoc.readthedocs.io/en/latest/format.html)
