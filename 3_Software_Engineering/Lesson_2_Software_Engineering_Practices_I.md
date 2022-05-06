@@ -73,3 +73,6 @@ Translating all your ideas and thoughts formally on paper can be a little diffic
 * [Bootstrap](https://github.com/twbs/bootstrap)
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
 * [Stack Overflow Blog](https://github.com/jjrunner/stackoverflow)
+## Git
+### Resources
+[A successful git branching model](https://nvie.com/posts/a-successful-git-branching-model/)
