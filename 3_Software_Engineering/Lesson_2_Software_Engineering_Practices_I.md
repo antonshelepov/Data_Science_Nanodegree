@@ -51,7 +51,7 @@ def population_density(population, land_area):
     """Calculate the population density of an area."""
     return population / land_area
 ```
-**Multi-line docstring
+**Multi-line docstring**
 ```
 def population_density(population, land_area):
     """Calculate the population density of an area.
