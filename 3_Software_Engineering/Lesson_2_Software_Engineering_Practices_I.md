@@ -33,3 +33,43 @@
 * **Functions should do one thing**: Each function you write should be focused on doing one thing. If a function is doing multiple things, it becomes more difficult to generalize and reuse. Generally, if there's an "and" in your function name, consider refactoring.
 * **Arbitrary variable names can be more effective in certain functions**: Arbitrary variable names in general functions can actually make the code more readable.
 * **Try to use fewer than three arguments per function**: Try to use no more than three arguments when possible. This is not a hard rule and there are times when it is more appropriate to use many parameters. But in many cases, it's more effective to use fewer arguments. Remember we are modularizing to simplify our code and make it more efficient. If your function has a lot of parameters, you may want to rethink how you are splitting this up.
+## Efficient Code
+* Reducing run time
+* Reducing space in memory
+## Documentation
+Documentation is helpful for clarifying complex parts of code, making your code easier to navigate, and quickly conveying how and why different components of your program are used.
+### Types of Documentation
+* **Inline comments** (Line level)
+* **Docstrings** (Function or module level)
+* **Project documentation** (Project level)
+### Docstrings
+Docstring, or documentation strings, are valuable pieces of documentation that explain the functionality of any function or module in your code. Ideally, each of your functions should always have a docstring.
+Docstrings are surrounded by triple quotes. The first line of the docstring is a brief explanation of the function's purpose.
+**One-line docstring**
+'''def population_density(population, land_area):
+    """Calculate the population density of an area."""
+    return population / land_area'''
+**Multi-line docstring
+'''def population_density(population, land_area):
+    """Calculate the population density of an area.
+
+    Args:
+    population: int. The population of the area
+    land_area: int or float. This function is unit-agnostic, if you pass in values in terms of square km or square miles the function will return a density in those units.
+
+    Returns:
+    population_density: population/land_area. The population density of a 
+    particular area.
+    """
+    return population / land_area'''
+### Resources
+* [PEP 257 - Docstring Conventions](https://peps.python.org/pep-0257/)
+* [NumPy Docstring Guide](https://numpydoc.readthedocs.io/en/latest/format.html)
+### Project Documentation
+Project documentation is essential for getting others to understand why and how your code is relevant to them, whether they are potentials users of your project or developers who may contribute to your code. A great first step in project documentation is your README file. It will often be the first interaction most users will have with your project.
+Whether it's an application or a package, your project should absolutely come with a README file. At a minimum, this should explain what it does, list its dependencies, and provide sufficiently detailed instructions on how to use it. Make it as simple as possible for others to understand the purpose of your project and quickly get something working.
+Translating all your ideas and thoughts formally on paper can be a little difficult, but you'll get better over time, and doing so makes a significant difference in helping others realize the value of your project. Writing this documentation can also help you improve the design of your code, as you're forced to think through your design decisions more thoroughly. It also helps future contributors to follow your original intentions.
+### Resources
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
+* [Stack Overflow Blog](https://github.com/jjrunner/stackoverflow)
