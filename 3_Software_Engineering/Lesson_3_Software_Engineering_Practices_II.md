@@ -12,3 +12,31 @@ The advantage of unit tests is that they are isolated from the rest of your prog
 [Integration Testing](https://www.fullstackpython.com/integration-testing.html)
 [Unit Testing Tools](https://docs.pytest.org/en/latest/getting-started.html)
 ### Test-driven Development and DS
+* *Test-driven development*: Writing tests before you write the code that’s being tested. Your test fails at first, and you know you’ve finished implementing a task when the test passes.
+* Tests can check for different scenarios and edge cases before you even start to write your function. When start implementing your function, you can run the test to get immediate feedback on whether it works or not as you tweak your function.
+* When refactoring or adding to your code, tests help you rest assured that the rest of your code didn't break while you were making those changes. Tests also helps ensure that your function behavior is repeatable, regardless of external parameters such as hardware and time.
+[Data Science TDD](https://www.linkedin.com/pulse/data-science-test-driven-development-sam-savage/)
+[Pivotal Engineering Journal](https://tanzu.vmware.com/content/pivotal-engineering-journal)
+[Test Driven Development is essential for good data science. Here’s why.](https://medium.com/uk-hydrographic-office/test-driven-development-is-essential-for-good-data-science-heres-why-db7975a03a44)
+[Testing Your Code](https://docs.python-guide.org/writing/tests/)
+## Logging
+### Log Messages
+Logging is the process of recording messages to describe events that have occurred while running your software. Let's take a look at a few examples, and learn tips for writing good log messages.
+### Tips
+* Be professional and clear
+```
+Bad: Hmmm... this isn't working???
+Bad: idk.... :(
+Good: Couldn't parse file.
+```
+* Be concise
+```
+Bad: Start Product Recommendation Process
+Bad: We have completed the steps necessary and will now proceed with the recommendation process for the records in our product database.
+Good: Generating product recommendations.
+```
+* Provide any useful information
+```
+Bad: Failed to read location data
+Good: Failed to read location data: store_id 8324971
+```
