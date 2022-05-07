@@ -12,3 +12,11 @@ Object-oriented programming has a few benefits over procedural programming, whic
 * *OOP*: A commonly used abbreviation for object-oriented programming
 * *Encapsulation*: One of the fundamental ideas behind object-oriented programming is called encapsulation. You can combine functions and data all into a single entity. In object-oriented programming, this single entity is called a class. Encapsulation allows you to hide implementation details, much like how the scikit-learn package hides the implementation of machine learning algorithms 
 ![oop](screenshots/oop_2.png "oop 2")
+### Difference between a method and a function
+A function and a method look very similar. They both use the def keyword. They also have inputs and return outputs. The difference is that a method is inside of a class whereas a function is outside of a class.
+### What is ```self```?
+It is used in order to differentiate between two or more objects that are initiated by the same class.
+```
+shirt_one = Shirt('red', 'S', 'short-sleeve', 15)
+shirt_two = Shirt('yellow', 'M', 'long-sleeve', 20)
+```
