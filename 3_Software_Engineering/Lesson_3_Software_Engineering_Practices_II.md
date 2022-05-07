@@ -40,3 +40,4 @@ Good: Generating product recommendations.
 Bad: Failed to read location data
 Good: Failed to read location data: store_id 8324971
 ```
+![logging](/screenshots/logging.png "quiz logging")
