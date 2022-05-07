@@ -41,3 +41,7 @@ Bad: Failed to read location data
 Good: Failed to read location data: store_id 8324971
 ```
 ![logging](/screenshots/logging.png "quiz logging")
+## Code Reviews
+Code reviews benefit everyone in a team to promote best programming practices and prepare code for production. Let's go over what to look for in a code review and some tips on how to conduct one.
+[Guidelines for code reviews](https://github.com/lyst/MakingLyst/tree/master/code-reviews)
+[Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices)
