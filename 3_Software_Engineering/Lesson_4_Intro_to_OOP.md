@@ -24,3 +24,4 @@ shirt_two = Shirt('yellow', 'M', 'long-sleeve', 20)
 ### Set and get methods
 Benefits of ```set``` and ```get``` methods is that you can hide the implementation from your user. For example, originally, a variable was coded as a list and later became a dictionary. With the above mentioned methods you could easily change how that variable gets accessed.
 [Python Tutorial site](https://python-course.eu/oop/properties-vs-getters-and-setters.php)
+## A Gaussian class
